@@ -2,7 +2,7 @@
 [![](https://jitpack.io/v/yhaolpz/FloatWindow.svg)](https://jitpack.io/#yhaolpz/FloatWindow)
 
 
-![悬浮按钮图](https://raw.githubusercontent.com/yhaolpz/FixedFloatWindow/master/slide.gif)
+![悬浮按钮图](https://github.com/wangwu59105/FixedFloatWindow/master/slide.gif)
 
 特性：
 ===
@@ -41,7 +41,7 @@
 
 ```
 	dependencies {
-	        compile 'com.github.yhaolpz:FloatWindow:1.0.9'
+	        compile 'com.github.yhaolpz:FloatWindow:1.0.10'
 	}
 ```
 
@@ -168,11 +168,9 @@ setMoveStyle 方法可设置动画效果，只在 MoveType.slide 或 MoveType.ba
 举个栗子
 ===
 
-点击查看 : [示例代码](https://github.com/yhaolpz/FloatWindow/blob/master/sample/src/main/java/com/example/yhao/floatwindow/BaseApplication.java) 。
-
 最后：
 --
-![悬浮按钮图](https://raw.githubusercontent.com/yhaolpz/FixedFloatWindow/master/pay.jpg)
+![悬浮按钮图](https://github.com/wangwu59105/FixedFloatWindow/master/pay.jpg)
 
 本人已尽量去兼容更多机型，但经济有限，如果你想帮助此库，提 Issues 标出当前版本不适配的机型即可，感谢~
 
@@ -180,6 +178,12 @@ setMoveStyle 方法可设置动画效果，只在 MoveType.slide 或 MoveType.ba
 **更新日志**
 --
 
+**v1.0.10**
+
+ 
+  修改androidx
+ 
+ 
 **v1.0.9**
 
  修复拖动点击事件冲突
